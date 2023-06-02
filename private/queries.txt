@@ -1,0 +1,11 @@
+INSERT INTO employees (first_name, last_name, email)
+VALUES ('test', 'test', 'test@test.com');
+
+
+UPDATE voorbeeld
+SET email = 'voorbeeld@mail.com'
+WHERE id = 1;
+
+
+DELETE FROM voorbeeld
+WHERE id = 1;
